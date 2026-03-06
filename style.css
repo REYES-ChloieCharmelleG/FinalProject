@@ -1,4 +1,4 @@
-/* Global Styles */
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -72,7 +72,7 @@ body {
   border-radius: 8px;
 }
 
-/* Image Container Gallery */
+
 .container {
   display: flex;
   justify-content: center;
@@ -90,12 +90,6 @@ body {
   border-radius: 8px;
   transition: transform 0.3s ease;
 }
-
-.container img:hover {
-  transform: scale(3.3);
-}
-
-/* New Section Layout */
 .new-section {
   display: flex;
   align-items: flex-start;
@@ -116,8 +110,6 @@ body {
 .text-content {
   flex: 2;
 }
-
-/* Images Row Layout */
 .images-row {
   display: flex;
   justify-content: space-between;
@@ -203,8 +195,6 @@ footer {
   font-size: 14px;
   text-align: center;
 }
-
-/* Main Section */
 main {
   padding: 2rem 1rem;
   text-align: center;
@@ -215,7 +205,7 @@ h2 {
   margin-bottom: 1rem;
 }
 
-/* Responsive Design */
+/* Responsive */
 @media (max-width: 900px) {
   .images-row {
     flex-direction: column;
